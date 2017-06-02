@@ -2,7 +2,8 @@
 <suite name="TestAll">
 	<test name="order">
 		<classes>
-			<class name="com.automation.web.test.YelpTest" />
+			<class name="com.automation.web.test.YelpTest"/>
+			<class name="com.automation.webservice.test.YelpServiceTest"/>
 		</classes>
 	</test>
 </suite>
