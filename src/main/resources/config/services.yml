@@ -1,0 +1,14 @@
+QA: 
+  YELP_AUTH:
+    host: api.yelp.com
+    port:
+    pathparam: /oauth2/token
+    qryparam:
+    payloadpath: 
+  DELIVERY_SEARCH:
+    host: api.yelp.com
+    port:
+    pathparam: /v3/transactions/delivery/search?
+    qryparam: latitude=37.786882&longitude=-122.399972
+    payloadpath:   
+ 
